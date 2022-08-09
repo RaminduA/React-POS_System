@@ -1,0 +1,38 @@
+.login_con {
+    height: 100vh;
+}
+.position_01{
+    position: absolute!important;
+    margin: auto!important;
+    left: 0;
+    right: 0;
+}
+.login_middle_con {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 28%;
+    /*border: 1px solid rgba(0, 0, 0, .5);*/
+    border-radius: 5px;
+    /*background-color: #61dafb;*/
+    height: 70%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.login_middle_con >div:nth-child(1)> label:nth-child(1) {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-family: 'Play', sans-serif;
+    font-size: 1.8rem;
+    top: 0;
+    bottom: 0;
+
+}
+.btnLogin{
+    width: 150px;
+    height:40px;
+}
