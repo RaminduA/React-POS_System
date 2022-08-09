@@ -39,12 +39,12 @@ export default function Login() {
                                     <TextValidator id="outlined-basic" label="E-mail" variant="outlined" size="small"
                                                    name="email"
                                                    style={{width: '100%',marginTop:'6%'}}
-                                                   // validators={['required', 'isEmail']}
-                                                   // value={formData.email}
-                                                   // onChange={handleChange}
+                                        // validators={['required', 'isEmail']}
+                                        // value={formData.email}
+                                        // onChange={handleChange}
                                     />
                                 </Grid>
-                                </Grid>
+                            </Grid>
                         </Box>
                     </ValidatorForm>
                 </div>
@@ -53,10 +53,10 @@ export default function Login() {
                 </div>
                 <div style={{height:'10%',width:'80%',left:'50%',position:'relative',transform: 'translateX(-50%)'}}>
                     <label>Create new user account?</label>
-                    <NavLink to='signup'><label style={{margin:'10px'}}>click here</label></NavLink>
+                    <NavLink to='register'><label style={{margin:'10px'}}>click here</label></NavLink>
                     <NavLink to='cart'><label style={{margin:'10px',display:'inline-block'}}>Cart</label></NavLink>
                     <NavLink to='dashboard'><label style={{margin:'10px'}}>Dashboard</label></NavLink>
-                    <NavLink to='product'><label style={{margin:'10px'}}>Product manage</label></NavLink>
+                    <NavLink to='products'><label style={{margin:'10px'}}>Product manage</label></NavLink>
                 </div>
             </div>
         </div>

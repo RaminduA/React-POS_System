@@ -44,6 +44,7 @@
   "devDependencies": {
     "@mui/material": "^5.9.3",
     "@mui/x-date-pickers": "^5.0.0-beta.4",
+    "axios": "^0.27.2",
     "react-material-ui-form-validator": "^3.0.1"
   }
 }
